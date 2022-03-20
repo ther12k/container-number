@@ -1,0 +1,3974 @@
+{
+    "2000":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2001":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2002":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2003":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2004":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2010":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "2011":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "2013":{
+       "size":"20",
+       "height":"80",
+       "type":"VE",
+       "desc":"CLOSED, VENTILATED, NON MECHANICAL"
+    },
+    "2015":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, MECHANICAL VENT"
+    },
+    "2020":{
+       "size":"20",
+       "height":"80",
+       "type":"IS",
+       "desc":"CLOSED, VENTILATED, MECHANICAL VENT"
+    },
+    "2021":{
+       "size":"20",
+       "height":"80",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "2022":{
+       "size":"20",
+       "height":"80",
+       "type":"HE",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "2025":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "2026":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "2030":{
+       "size":"20",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED, EXPENDABLE R"
+    },
+    "2031":{
+       "size":"20",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "2032":{
+       "size":"20",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "2040":{
+       "size":"20",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "2041":{
+       "size":"20",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "2042":{
+       "size":"20",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "2050":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2051":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2052":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2053":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2060":{
+       "size":"20",
+       "height":"80",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "2061":{
+       "size":"20",
+       "height":"80",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2062":{
+       "size":"20",
+       "height":"80",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2063":{
+       "size":"20",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2064":{
+       "size":"20",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2065":{
+       "size":"20",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2066":{
+       "size":"20",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2067":{
+       "size":"20",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2070":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NON DANGEROUS LIQUIDS, TES"
+    },
+    "2071":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NON DANGEROUS LIQUIDS, TES"
+    },
+    "2072":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NON DANGEROUS LIQUIDS, TES"
+    },
+    "2073":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "2074":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "2075":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "2076":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "2077":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES, TEST PRES"
+    },
+    "2078":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES, TEST PRES"
+    },
+    "2079":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES, TEST PRES"
+    },
+    "2080":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "20B0":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "20B1":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "20B3":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "20B4":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "20B5":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "20B6":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "20BK":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED"
+    },
+    "20BU":{
+       "size":"20",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "20G0":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "20G1":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "20G2":{
+       "size":"20",
+       "height":"80",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "20G3":{
+       "size":"20",
+       "height":"80",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "20GJ":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"DV"
+    },
+    "20GP":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "20H0":{
+       "size":"20",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "20H1":{
+       "size":"20",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "20H2":{
+       "size":"20",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "20H5":{
+       "size":"20",
+       "height":"80",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED; HEAT TRANSFER C"
+    },
+    "20H6":{
+       "size":"20",
+       "height":"80",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED; HEAT TRANSFER C"
+    },
+    "20HI":{
+       "size":"20",
+       "height":"80",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED"
+    },
+    "20K0":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CT"
+    },
+    "20K2":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CONTAINER TANK"
+    },
+    "20KD":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CT"
+    },
+    "20P0":{
+       "size":"20",
+       "height":"80",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "20P1":{
+       "size":"20",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "20P2":{
+       "size":"20",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "20P3":{
+       "size":"20",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "20P4":{
+       "size":"20",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "20P5":{
+       "size":"20",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "20PC":{
+       "size":"20",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "20PF":{
+       "size":"20",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "20PL":{
+       "size":"20",
+       "height":"80",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "20PS":{
+       "size":"20",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "20R0":{
+       "size":"20",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "20R1":{
+       "size":"20",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "20R2":{
+       "size":"20",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "20R3":{
+       "size":"20",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "20RE":{
+       "size":"20",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED"
+    },
+    "20RS":{
+       "size":"20",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "20RT":{
+       "size":"20",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "20S0":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "20S1":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "20S2":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVE FISH CARRIER"
+    },
+    "20T0":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS, MINI"
+    },
+    "20T1":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS, MINI"
+    },
+    "20T2":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS, MINI"
+    },
+    "20T3":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "20T4":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "20T5":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "20T6":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "20T7":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR GASES, MINIMUM PRESSURE 91"
+    },
+    "20T8":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR GASES, MINIMUM PRESSURE 2"
+    },
+    "20TG":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR GASES"
+    },
+    "20TN":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS"
+    },
+    "20U0":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "20U1":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "20U2":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OF BOTH"
+    },
+    "20U3":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "20U4":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "20UT":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP CONTAINER"
+    },
+    "20V0":{
+       "size":"20",
+       "height":"80",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "20V2":{
+       "size":"20",
+       "height":"80",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "20V4":{
+       "size":"20",
+       "height":"80",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "2100":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2102":{
+       "size":"20",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2167":{
+       "size":"20",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2200":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2201":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2202":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2203":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2204":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2210":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "2211":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "2212":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"CLOSED, VENTED, SPARE"
+    },
+    "2213":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"CLOSED, VENTILATED, NON MECHANICAL"
+    },
+    "2214":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, SPARE"
+    },
+    "2215":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, MECHANICAL VENT"
+    },
+    "2217":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, MECHANICAL VENT"
+    },
+    "221G":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"DRY CONTAINER"
+    },
+    "2220":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "2221":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "2222":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "2225":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "2226":{
+       "size":"20",
+       "height":"86",
+       "type":"AC",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "2230":{
+       "size":"20",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED, EXPENDABLE R"
+    },
+    "2231":{
+       "size":"20",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "2232":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "2240":{
+       "size":"20",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "2241":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "2242":{
+       "size":"20",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "2250":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2251":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2252":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2253":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2254":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2257":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, SPARE"
+    },
+    "2259":{
+       "size":"20",
+       "height":"86",
+       "type":"HT",
+       "desc":"OPEN TOP, SPARE"
+    },
+    "2260":{
+       "size":"20",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "2261":{
+       "size":"20",
+       "height":"86",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2262":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2263":{
+       "size":"20",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2264":{
+       "size":"20",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2265":{
+       "size":"20",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2266":{
+       "size":"20",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2267":{
+       "size":"20",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2268":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2269":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "2270":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, NON DANGEROUS LIQUIDS, TEST P"
+    },
+    "2271":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, NON DANGEROUS LIQUIDS, TEST P"
+    },
+    "2272":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, NON DANGEROUS LIQUIDS, TEST P"
+    },
+    "2273":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "2274":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "2275":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "2276":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "2277":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS GASES, TEST PRESSUR"
+    },
+    "2278":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS GASES, TEST PRESSUR"
+    },
+    "2279":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS GASES, TEST PRESSUR"
+    },
+    "2280":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "2289":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, SPARE"
+    },
+    "22B0":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "22B1":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "22B3":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "22B4":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "22B5":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "22B6":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "22BK":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED"
+    },
+    "22BU":{
+       "size":"20",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "22G0":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "22G1":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "22G2":{
+       "size":"20",
+       "height":"86",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "22G3":{
+       "size":"20",
+       "height":"86",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "22G4":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE / DRY CONTAINER"
+    },
+    "22G6":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE / DRY CONTAINER"
+    },
+    "22GB":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "22GI":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "22H0":{
+       "size":"20",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "22H1":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "22H2":{
+       "size":"20",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "22H5":{
+       "size":"20",
+       "height":"86",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED; HEAT TRANSFER C"
+    },
+    "22H6":{
+       "size":"20",
+       "height":"86",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED; HEAT TRANSFER C"
+    },
+    "22HI":{
+       "size":"20",
+       "height":"86",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED"
+    },
+    "22K0":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR DANGER LIQUIDS"
+    },
+    "22K1":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR DANGER LIQUIDS"
+    },
+    "22K2":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK,FOR DANGER LIQUIDS, MINIMU"
+    },
+    "22K3":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK,FOR LIQUID"
+    },
+    "22K5":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR DANGER LIQUIDS,MINIMUN"
+    },
+    "22K7":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CRYOGENIC TANK CONTAINER"
+    },
+    "22K8":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CRYOGENIC TANK CONTAINER"
+    },
+    "22KD":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CONTAINER TANK"
+    },
+    "22KX":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR NONDANGEROUS LIQUIDS, MIN"
+    },
+    "22P0":{
+       "size":"20",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "22P1":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "22P2":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "22P3":{
+       "size":"20",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "22P4":{
+       "size":"20",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "22P5":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "22P8":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "22PC":{
+       "size":"20",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "22PF":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "22PL":{
+       "size":"20",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "22PS":{
+       "size":"20",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "22R0":{
+       "size":"20",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "22R1":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "22R2":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "22R3":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "22R8":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"MECHANICALLY REFRIGERATED (NO FOOD)"
+    },
+    "22RE":{
+       "size":"20",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED"
+    },
+    "22RS":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "22RT":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "22S0":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "22S1":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "22S2":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVE FISH CARRIER"
+    },
+    "22T0":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR NONDANGEROUS LIQUIDS, MIN"
+    },
+    "22T1":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR NONDANGEROUS LIQUIDS, MIN"
+    },
+    "22T2":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR NONDANGEROUS LIQUIDS, MIN"
+    },
+    "22T3":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR DANGEROUS LIQUIDS, MINIMU"
+    },
+    "22T4":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR DANGEROUS LIQUIDS, MINIMU"
+    },
+    "22T5":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR DANGEROUS LIQUIDS, MINIMU"
+    },
+    "22T6":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR DANGEROUS LIQUIDS, MINIMU"
+    },
+    "22T7":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR GASES, MINIMUM PRESSURE 9"
+    },
+    "22T8":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR GASES, MINIMUM PRESSURE 2"
+    },
+    "22T9":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR GASES, MINIMUM PRESSURE ("
+    },
+    "22TG":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR GASES"
+    },
+    "22TN":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR NONDANGEROUS LIQUIDS,"
+    },
+    "22U0":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "22U1":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "22U2":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OF BOTH"
+    },
+    "22U3":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "22U4":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "22U6":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "22UT":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP CONTAINER"
+    },
+    "22V0":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "22V1":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "22V2":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "22V4":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "22V9":{
+       "size":"20",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "2300":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2310":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED CONTAINERS VENTED, PASSIVE"
+    },
+    "2320":{
+       "size":"20",
+       "height":"86",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "2330":{
+       "size":"20",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED, EXPENDABLE R"
+    },
+    "2332":{
+       "size":"20",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "2350":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2351":{
+       "size":"20",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2360":{
+       "size":"20",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "2361":{
+       "size":"20",
+       "height":"86",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2370":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CONTAINER TANK"
+    },
+    "2378":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS GASES, TEST PRESSUR"
+    },
+    "2400":{
+       "size":"20",
+       "height":"90",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2410":{
+       "size":"20",
+       "height":"90",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "2430":{
+       "size":"20",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "2463":{
+       "size":"20",
+       "height":"90",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2474":{
+       "size":"20",
+       "height":"90",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "2475":{
+       "size":"20",
+       "height":"90",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "2480":{
+       "size":"20",
+       "height":"90",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "24G0":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "2500":{
+       "size":"20",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, HEIGHT CUBE"
+    },
+    "2510":{
+       "size":"20",
+       "height":"96",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "2530":{
+       "size":"20",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "2531":{
+       "size":"20",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "2532":{
+       "size":"20",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "2550":{
+       "size":"20",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPENINGS AT ONE OR BOTH END(S) PLUS"
+    },
+    "2576":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CONTAINER TANK"
+    },
+    "2580":{
+       "size":"20",
+       "height":"96",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "25G0":{
+       "size":"20",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "25G1":{
+       "size":"20",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "25P0":{
+       "size":"20",
+       "height":"96",
+       "type":"FB",
+       "desc":"PLATFORM CONTAINER"
+    },
+    "25R1":{
+       "size":"20",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "25T0":{
+       "size":"20",
+       "height":"96",
+       "type":"CT",
+       "desc":"FOR NON DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "25U0":{
+       "size":"20",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPENINGS AT ONE OR BOTH END(S) PLUS"
+    },
+    "25U1":{
+       "size":"20",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPENINGS AT ONE OR BOTH END(S) PLUS"
+    },
+    "25U6":{
+       "size":"20",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP"
+    },
+    "2650":{
+       "size":"20",
+       "height":"43",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2651":{
+       "size":"20",
+       "height":"43",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2659":{
+       "size":"20",
+       "height":"43",
+       "type":"HT",
+       "desc":"OPEN TOP, SPARE, HEIGHT > 4' AND <="
+    },
+    "2670":{
+       "size":"20",
+       "height":"43",
+       "type":"CT",
+       "desc":"TANK, NON DANGEROUS LIQUIDS, TEST P"
+    },
+    "2676":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"CONTAINER TANK"
+    },
+    "2764":{
+       "size":"20",
+       "height":"43",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2876":{
+       "size":"20",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "28S3":{
+       "size":"20",
+       "height":"43",
+       "type":"DV",
+       "desc":"DRY VAN - 4,3 HOOG"
+    },
+    "2920":{
+       "size":"20",
+       "height":"40",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "2951":{
+       "size":"20",
+       "height":"40",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "2960":{
+       "size":"20",
+       "height":"40",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "2961":{
+       "size":"20",
+       "height":"40",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2964":{
+       "size":"20",
+       "height":"40",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "29P3":{
+       "size":"20",
+       "height":"40",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "2CG1":{
+       "size":"20",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "2CT2":{
+       "size":"20",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, FOR NONDANGEROUS LIQUIDS, MIN"
+    },
+    "3004":{
+       "size":"30",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "3066":{
+       "size":"30",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "3078":{
+       "size":"30",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS GASES, TEST PRESSUR"
+    },
+    "3080":{
+       "size":"30",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "30B0":{
+       "size":"30",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "3103":{
+       "size":"30",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "3200":{
+       "size":"30",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "3203":{
+       "size":"30",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "3210":{
+       "size":"30",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "3251":{
+       "size":"30",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "3261":{
+       "size":"30",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "3266":{
+       "size":"30",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "3270":{
+       "size":"30",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, NON DANGEROUS LIQUIDS, TEST P"
+    },
+    "3276":{
+       "size":"30",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "3280":{
+       "size":"30",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3282":{
+       "size":"30",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3376":{
+       "size":"30",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS LIQUIDS, TEST PRESS"
+    },
+    "3380":{
+       "size":"30",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3480":{
+       "size":"30",
+       "height":"90",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3481":{
+       "size":"30",
+       "height":"90",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3482":{
+       "size":"30",
+       "height":"90",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3750":{
+       "size":"30",
+       "height":"43",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "3810":{
+       "size":"30",
+       "height":"80",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "3880":{
+       "size":"30",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3900":{
+       "size":"30",
+       "height":"40",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "3940":{
+       "size":"30",
+       "height":"40",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "3970":{
+       "size":"30",
+       "height":"40",
+       "type":"CT",
+       "desc":"TANK, NON DANGEROUS LIQUIDS, TEST P"
+    },
+    "3980":{
+       "size":"30",
+       "height":"40",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "3CB1":{
+       "size":"30",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "3DB0":{
+       "size":"30",
+       "height":"90",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "3DB1":{
+       "size":"30",
+       "height":"90",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "4000":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4030":{
+       "size":"40",
+       "height":"96",
+       "type":"RE",
+       "desc":"THERMAL CONTAINER, REFRIGERATED"
+    },
+    "4066":{
+       "size":"40",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "40B0":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "40B1":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "40B3":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "40B4":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "40B5":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "40B6":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "40BK":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED"
+    },
+    "40BU":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "40G0":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "40G1":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "40G2":{
+       "size":"40",
+       "height":"80",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "40G3":{
+       "size":"40",
+       "height":"80",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "40GP":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "40H0":{
+       "size":"40",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "40H1":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "40H2":{
+       "size":"40",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "40H5":{
+       "size":"40",
+       "height":"80",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED; HEAT TRANSFER C"
+    },
+    "40H6":{
+       "size":"40",
+       "height":"80",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED; HEAT TRANSFER C"
+    },
+    "40HI":{
+       "size":"40",
+       "height":"80",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED"
+    },
+    "40P0":{
+       "size":"40",
+       "height":"80",
+       "type":"FB",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "40P1":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "40P2":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "40P3":{
+       "size":"40",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "40P4":{
+       "size":"40",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "40P5":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "40PC":{
+       "size":"40",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "40PF":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "40PL":{
+       "size":"40",
+       "height":"80",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "40PP":{
+       "size":"40",
+       "height":"96",
+       "type":"PP",
+       "desc":"40FEET POWERPACK HC"
+    },
+    "40PS":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "40R0":{
+       "size":"40",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "40R1":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "40R2":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "40R3":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "40RE":{
+       "size":"40",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED"
+    },
+    "40RS":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "40RT":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "40S0":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "40S1":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "40S2":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVE FISH CARRIER"
+    },
+    "40T0":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS, MINI"
+    },
+    "40T1":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS, MINI"
+    },
+    "40T2":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS, MINI"
+    },
+    "40T3":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "40T4":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "40T5":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "40T6":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, MINIMUM"
+    },
+    "40T7":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR GASES, MINIMUM PRESSURE 91"
+    },
+    "40T8":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR GASES, MINIMUM PRESSURE 2"
+    },
+    "40TG":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR GASES, MINIMUM PRESSURE 2"
+    },
+    "40TN":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NONDANGEROUS LIQUIDS,"
+    },
+    "40U0":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "40U1":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "40U2":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OF BOTH"
+    },
+    "40U3":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "40U4":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "40U9":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP CONTAINER"
+    },
+    "40UT":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP CONTAINER"
+    },
+    "40V0":{
+       "size":"40",
+       "height":"80",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "40V2":{
+       "size":"40",
+       "height":"80",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "40V4":{
+       "size":"40",
+       "height":"80",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "4100":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4101":{
+       "size":"40",
+       "height":"80",
+       "type":"SD",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4102":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4103":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4104":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4110":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4111":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4113":{
+       "size":"40",
+       "height":"80",
+       "type":"VE",
+       "desc":"CLOSED, VENTILATED, NON MECHANICAL"
+    },
+    "4115":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, MECHANICAL VENT"
+    },
+    "4120":{
+       "size":"40",
+       "height":"80",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4121":{
+       "size":"40",
+       "height":"80",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4122":{
+       "size":"40",
+       "height":"80",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4125":{
+       "size":"40",
+       "height":"80",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "4126":{
+       "size":"40",
+       "height":"80",
+       "type":"AC",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "4130":{
+       "size":"40",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED, EXPENDABLE R"
+    },
+    "4131":{
+       "size":"40",
+       "height":"80",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "4132":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "4140":{
+       "size":"40",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "4141":{
+       "size":"40",
+       "height":"80",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "4142":{
+       "size":"40",
+       "height":"80",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "4150":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4151":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4152":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4153":{
+       "size":"40",
+       "height":"80",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4160":{
+       "size":"40",
+       "height":"80",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "4161":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4162":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4163":{
+       "size":"40",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4164":{
+       "size":"40",
+       "height":"80",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4165":{
+       "size":"40",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4166":{
+       "size":"40",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4167":{
+       "size":"40",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4170":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NON DANGEROUS LIQUIDS, TES"
+    },
+    "4171":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NON DANGEROUS LIQUIDS, TES"
+    },
+    "4172":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR NON DANGEROUS LIQUIDS, TES"
+    },
+    "4173":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "4174":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "4175":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "4176":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "4177":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES, TEST PRES"
+    },
+    "4178":{
+       "size":"40",
+       "height":"80",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES, TEST PRES"
+    },
+    "4180":{
+       "size":"40",
+       "height":"80",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "4200":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4201":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4202":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4203":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4204":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4210":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4213":{
+       "size":"40",
+       "height":"86",
+       "type":"VE",
+       "desc":"CLOSED, VENTILATED, NON MECHANICAL"
+    },
+    "4220":{
+       "size":"40",
+       "height":"86",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4230":{
+       "size":"40",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED, EXPENDABLE R"
+    },
+    "4231":{
+       "size":"40",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "4232":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "4240":{
+       "size":"40",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "4250":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4251":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4252":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4253":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4260":{
+       "size":"40",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "4261":{
+       "size":"40",
+       "height":"86",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4263":{
+       "size":"40",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4264":{
+       "size":"40",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4266":{
+       "size":"40",
+       "height":"86",
+       "type":"SB",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4270":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES"
+    },
+    "4278":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES, TEST PRES"
+    },
+    "4280":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "42B0":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "42B1":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "42B3":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "42B4":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "42B5":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "42B6":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED, TIPPING DISC"
+    },
+    "42BK":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, PRESSURIZED"
+    },
+    "42BU":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, BOX TYPE"
+    },
+    "42G0":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "42G1":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "42G2":{
+       "size":"40",
+       "height":"86",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "42G3":{
+       "size":"40",
+       "height":"86",
+       "type":"OS",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "42G4":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "42G9":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "42GP":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "42H0":{
+       "size":"40",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "42H1":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "42H2":{
+       "size":"40",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "42H5":{
+       "size":"40",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "42H6":{
+       "size":"40",
+       "height":"86",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED; HEAT TRANSFER C"
+    },
+    "42HI":{
+       "size":"40",
+       "height":"86",
+       "type":"IS",
+       "desc":"THERMAL, INSULATED"
+    },
+    "42P0":{
+       "size":"40",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "42P1":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "42P2":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "42P3":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "42P4":{
+       "size":"40",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "42P5":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "42P8":{
+       "size":"40",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "42PC":{
+       "size":"40",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "42PF":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "42PL":{
+       "size":"40",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "42PS":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "42R0":{
+       "size":"40",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "42R1":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "42R2":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "42R3":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "42RE":{
+       "size":"40",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED"
+    },
+    "42RS":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "42RT":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "42S0":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "42S1":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "42S2":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVE FISH CARRIER"
+    },
+    "42T0":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"CT"
+    },
+    "42T3":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR DANGEROUS LIQUID"
+    },
+    "42T4":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR DANGEROUS LIQUID"
+    },
+    "42T5":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR DANGEROUS LIQUID"
+    },
+    "42T6":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR DANGEROUS LIQUID"
+    },
+    "42TG":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR GASES"
+    },
+    "42U0":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "42U1":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "42U2":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OF BOTH"
+    },
+    "42U3":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "42U4":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "42UB":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP CONTAINER"
+    },
+    "42UT":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP CONTAINER"
+    },
+    "42V0":{
+       "size":"40",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "42V2":{
+       "size":"40",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "42V4":{
+       "size":"40",
+       "height":"86",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "4300":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4301":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4302":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4303":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4304":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4310":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4311":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4313":{
+       "size":"40",
+       "height":"86",
+       "type":"VE",
+       "desc":"CLOSED, VENTILATED, NON MECHANICAL"
+    },
+    "4314":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, SPARE"
+    },
+    "4315":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, MECHANICAL VENT"
+    },
+    "4319":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED"
+    },
+    "4320":{
+       "size":"40",
+       "height":"86",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4321":{
+       "size":"40",
+       "height":"86",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4322":{
+       "size":"40",
+       "height":"86",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4325":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"NAMED CARGO, LIVESTOCK CARRIER"
+    },
+    "4326":{
+       "size":"40",
+       "height":"86",
+       "type":"AC",
+       "desc":"NAMED CARGO, AUTOMOBILE CARRIER"
+    },
+    "4330":{
+       "size":"40",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED, EXPENDABLE R"
+    },
+    "4331":{
+       "size":"40",
+       "height":"86",
+       "type":"RE",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "4332":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "4337":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, SELF POWERED REFRIGERATED"
+    },
+    "4340":{
+       "size":"40",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "4341":{
+       "size":"40",
+       "height":"86",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "4342":{
+       "size":"40",
+       "height":"86",
+       "type":"CR",
+       "desc":"THERMAL, REFRIGERATED AND/OR HEATED"
+    },
+    "4350":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4351":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4352":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4353":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4354":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4359":{
+       "size":"40",
+       "height":"86",
+       "type":"HT",
+       "desc":"OPEN TOP, SPARE"
+    },
+    "4360":{
+       "size":"40",
+       "height":"86",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "4361":{
+       "size":"40",
+       "height":"86",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4362":{
+       "size":"40",
+       "height":"86",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4363":{
+       "size":"40",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4364":{
+       "size":"40",
+       "height":"86",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4365":{
+       "size":"40",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4366":{
+       "size":"40",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4367":{
+       "size":"40",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4368":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4369":{
+       "size":"40",
+       "height":"86",
+       "type":"FL",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4370":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR NONDANGEROUS"
+    },
+    "4375":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "4376":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS LIQUIDS, TEST PR"
+    },
+    "4378":{
+       "size":"40",
+       "height":"86",
+       "type":"CT",
+       "desc":"TANK FOR DANGEROUS GASES, TEST PRES"
+    },
+    "4380":{
+       "size":"40",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "4400":{
+       "size":"40",
+       "height":"90",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4410":{
+       "size":"40",
+       "height":"90",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4420":{
+       "size":"40",
+       "height":"90",
+       "type":"IS",
+       "desc":"DRY BULK, NON-PRESSURIZED, BOX TYPE"
+    },
+    "4430":{
+       "size":"40",
+       "height":"90",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "4431":{
+       "size":"40",
+       "height":"96",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED AND"
+    },
+    "4432":{
+       "size":"40",
+       "height":"90",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED, H"
+    },
+    "4451":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"GENERAL OPEN TOP"
+    },
+    "4460":{
+       "size":"40",
+       "height":"90",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER), HEIGHT > 8'6"
+    },
+    "4461":{
+       "size":"40",
+       "height":"90",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4466":{
+       "size":"40",
+       "height":"90",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "44G0":{
+       "size":"40",
+       "height":"90",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "44G1":{
+       "size":"40",
+       "height":"90",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "44P1":{
+       "size":"40",
+       "height":"96",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER), HEIGHT > 8'6"
+    },
+    "44R0":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"REFEER"
+    },
+    "4500":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "4501":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "4505":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, SPARE, HEIGHT > 8'"
+    },
+    "4510":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4514":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"CLOSED, VENTILATED, SPARE, HEIGHT >"
+    },
+    "4530":{
+       "size":"40",
+       "height":"96",
+       "type":"RE",
+       "desc":"THERMAL, REFRIGERATED, EXPENDABLE R"
+    },
+    "4531":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATE"
+    },
+    "4532":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "4537":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"DRY FOURTY CARGO"
+    },
+    "4550":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPENINGS AT ONE OR BOTH END(S)"
+    },
+    "4551":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPENINGS AT ONE OR BOTH END(S)"
+    },
+    "4560":{
+       "size":"40",
+       "height":"96",
+       "type":"FL",
+       "desc":"PLATFORM BASED CONTAINERS WITH"
+    },
+    "4561":{
+       "size":"40",
+       "height":"96",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4563":{
+       "size":"40",
+       "height":"96",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4564":{
+       "size":"40",
+       "height":"96",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4566":{
+       "size":"40",
+       "height":"96",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "4570":{
+       "size":"40",
+       "height":"96",
+       "type":"CT",
+       "desc":"TANK CONTAINER FOR NON DG LIQUIDS"
+    },
+    "4599":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"AIR SURFACE"
+    },
+    "45A0":{
+       "size":"40",
+       "height":"96",
+       "type":"AS",
+       "desc":"HIGH CUBE AIR/SURFACE"
+    },
+    "45G0":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "45G1":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "45G2":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "45G4":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "45G9":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "45GP":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "45P1":{
+       "size":"40",
+       "height":"96",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "45P3":{
+       "size":"40",
+       "height":"96",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "45P8":{
+       "size":"40",
+       "height":"96",
+       "type":"FL",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "45R0":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "45R1":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "45R2":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "45R3":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "45R5":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"DIESEL REFRIGERATED"
+    },
+    "45R6":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"CONTAINER REEFER"
+    },
+    "45R8":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"MECHANICALLY REFRIGERATED (NO FOOD)"
+    },
+    "45R9":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL CONTAINERS, SELF POWERED"
+    },
+    "45RS":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, SELF-POWERED REFRIGERATED/"
+    },
+    "45RT":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, REFRIGERATED AND HEATED"
+    },
+    "45S1":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE"
+    },
+    "45T0":{
+       "size":"40",
+       "height":"96",
+       "type":"CT",
+       "desc":"HIGH CUBE CONTAINER TANK"
+    },
+    "45U0":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPENINGS AT ONE OR BOTH END(S)"
+    },
+    "45U1":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPENINGS AT ONE OR BOTH END(S)"
+    },
+    "45U3":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"HIGH CUBE OPEN TOP CONTAINER"
+    },
+    "45U6":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "45V0":{
+       "size":"40",
+       "height":"96",
+       "type":"VE",
+       "desc":"GENERAL PURPOSE, WITH VENTILATION,"
+    },
+    "4610":{
+       "size":"40",
+       "height":"43",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "4678":{
+       "size":"40",
+       "height":"43",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS GASES, TEST PRESSUR"
+    },
+    "46P3":{
+       "size":"40",
+       "height":"96",
+       "type":"CF",
+       "desc":"40 FOOT FLATTRACK COLLAPSIBLE"
+    },
+    "46U1":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPEN TOP 40'HC"
+    },
+    "4750":{
+       "size":"40",
+       "height":"43",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4751":{
+       "size":"40",
+       "height":"43",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4761":{
+       "size":"40",
+       "height":"43",
+       "type":"SF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "4778":{
+       "size":"40",
+       "height":"43",
+       "type":"CT",
+       "desc":"TANK, DANGEROUS GASES, TEST PRESSUR"
+    },
+    "4886":{
+       "size":"40",
+       "height":"80",
+       "type":"FL",
+       "desc":"DRY BULK, PRESSURIZED, HORIZONTAL D"
+    },
+    "48U0":{
+       "size":"40",
+       "height":"43",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "48U1":{
+       "size":"40",
+       "height":"43",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4951":{
+       "size":"40",
+       "height":"40",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4960":{
+       "size":"40",
+       "height":"40",
+       "type":"FB",
+       "desc":"PLATFORM (CONTAINER)"
+    },
+    "4964":{
+       "size":"40",
+       "height":"40",
+       "type":"CF",
+       "desc":"PLATFORM WITH INCOMPLETE SUPERSTRUC"
+    },
+    "49U1":{
+       "size":"40",
+       "height":"40",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4CG1":{
+       "size":"40",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "4CU1":{
+       "size":"40",
+       "height":"86",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "4EG1":{
+       "size":"40",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "4ER1":{
+       "size":"40",
+       "height":"96",
+       "type":"RH",
+       "desc":"THERMAL, MECHANICALLY REFRIGERATED"
+    },
+    "4EU1":{
+       "size":"40",
+       "height":"96",
+       "type":"OT",
+       "desc":"OPEN TOP, OPENING(S) AT ONE OR BOTH"
+    },
+    "6200":{
+       "size":"25",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "6400":{
+       "size":"25",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "7066":{
+       "size":"25",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "7266":{
+       "size":"25",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "8280":{
+       "size":"35",
+       "height":"86",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "8480":{
+       "size":"35",
+       "height":"90",
+       "type":"BU",
+       "desc":"DRY BULK, NON PRESSURIZED, HOPPER T"
+    },
+    "9000":{
+       "size":"45",
+       "height":"80",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "9066":{
+       "size":"45",
+       "height":"80",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "9200":{
+       "size":"45",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "9210":{
+       "size":"45",
+       "height":"86",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "9266":{
+       "size":"45",
+       "height":"86",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "9400":{
+       "size":"45",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "9410":{
+       "size":"45",
+       "height":"90",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "9466":{
+       "size":"45",
+       "height":"90",
+       "type":"OS",
+       "desc":"PLATFORM WITH COMPLETE SUPERSTRUCTU"
+    },
+    "9500":{
+       "size":"45",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, OPENING(S) AT ONE"
+    },
+    "9510":{
+       "size":"45",
+       "height":"96",
+       "type":"DV",
+       "desc":"CLOSED, VENTED, PASSIVE VENTS AT UP"
+    },
+    "95L1":{
+       "size":"45",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE"
+    },
+    "9948":{
+       "size":"48",
+       "height":"96",
+       "type":"HC",
+       "desc":"DEFAULT 48'"
+    },
+    "9949":{
+       "size":"48",
+       "height":"96",
+       "type":"RH",
+       "desc":"48 CNR REEFER"
+    },
+    "9953":{
+       "size":"53",
+       "height":"96",
+       "type":"HC",
+       "desc":"DEFAULT 53'"
+    },
+    "99G8":{
+       "size":"25",
+       "height":"40",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "AMT5":{
+       "size":"20",
+       "height":"90",
+       "type":"CT",
+       "desc":"TANK, FOR DANGEROUS LIQUIDS, MINIMU"
+    },
+    "KDG1":{
+       "size":"45",
+       "height":"90",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "KMG1":{
+       "size":"45",
+       "height":"90",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "L2G0":{
+       "size":"45",
+       "height":"86",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "L5G0":{
+       "size":"45",
+       "height":"96",
+       "type":"DV",
+       "desc":"UNVENTILATED GENERAL PURPOSE,OPEN"
+    },
+    "L5G1":{
+       "size":"45",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    },
+    "LEG1":{
+       "size":"45",
+       "height":"96",
+       "type":"HC",
+       "desc":"45 FEET"
+    },
+    "LEG8":{
+       "size":"45",
+       "height":"96",
+       "type":"HC",
+       "desc":"UNVENTILATED GENERAL PURPOSE"
+    },
+    "LEVA":{
+       "size":"45",
+       "height":"96",
+       "type":"DV",
+       "desc":"GENERAL PURPOSE, WITHOUT VENTILATIO"
+    }
+ }

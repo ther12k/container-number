@@ -19,10 +19,14 @@ def draw_rectangle(image, result, resize=100):
 		# Draw rectangle
 		
 		# Add label
-		# if classes_name == 'seal':
-		cv2.rectangle(image, (x_min, y_min), (x_max, y_max), color, 2)
-		cv2.rectangle(image, (x_min, y_min-35), (x_min+250, y_min), color, cv2.FILLED)
-		cv2.putText(image, f'{classes_name}'.upper(), (x_min+10,y_min-12), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
+		if len(classes_name) > 4:
+			cv2.rectangle(image, (x_min, y_min), (x_max, y_max), color, 2)
+			cv2.rectangle(image, (x_min, y_min-35), (x_min+200, y_min), color, cv2.FILLED)
+			cv2.putText(image, f'{classes_name}'.upper(), (x_min+10,y_min-12), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
+		else:
+			cv2.rectangle(image, (x_min, y_min), (x_max, y_max), color, 2)
+			cv2.rectangle(image, (x_min, y_min-35), (x_min+75, y_min), color, cv2.FILLED)
+			cv2.putText(image, f'{classes_name}'.upper(), (x_min+10,y_min-12), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
 	width   = int(image.shape[1] * resize / 100)
 	height  = int(image.shape[0] * resize / 100)
 	# resize image

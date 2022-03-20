@@ -30,7 +30,6 @@ class MainProcess:
 		container_number, iso_code = self.cnic_detection.filter_and_crop(
 			img=image, results=result_detection, min_confidence=threshold
 		)
-		print(container_number)
 		if len(container_number[0]) >=1 and container_number[1] > 0 and len(container_number[2]) == 4:
 			logging.info(f'Got container number detection confidence : {round(container_number[1], 2)} %')
 
@@ -146,5 +145,5 @@ class MainProcess:
 			image_drawed = draw_rectangle(image_ori, i)
 			
 		# Save and sending file FTP
-		#self.save_and_sending_file(image_drawed, id)
+		self.save_and_sending_file(image_drawed, id)
 		return image_drawed

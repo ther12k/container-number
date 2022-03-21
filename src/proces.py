@@ -119,7 +119,7 @@ def result_iso_code_processing(results_ocr):
 			iso_code = iso_code_dict['iso_code']
 			avg_confidence = round(confidence_level, 2)
 		except KeyError:
-			iso_code = None
+			iso_code = ''
 			avg_confidence = 0
 	else:
 		iso_code = None

@@ -29,7 +29,7 @@ class Camera:
 		flip_method=0,
 	):
 		return (
-			"nvarguscamerasrc sensor-id=%d ! "
+			"nvarguscamerasrc sensor-id=%d exposuretimerange='8000000 8000000' ! "
 			"video/x-raw(memory:NVMM), "
 			"width=(int)%d, height=(int)%d, "
 			"format=(string)NV12, framerate=(fraction)%d/1 ! "

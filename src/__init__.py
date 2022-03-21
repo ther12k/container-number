@@ -26,7 +26,7 @@ class MainProcess:
 		Detection container number and iso code
 		and filter clasess, confidence
 		'''
-		result_detection = self.cnic_detection.detection(image)
+		result_detection = self.cnic_detection.detection(image, image_size=size)
 		container_number, iso_code = self.cnic_detection.filter_and_crop(
 			img=image, results=result_detection, min_confidence=threshold
 		)
@@ -55,12 +55,12 @@ class MainProcess:
 		cv2.imwrite(f'{path_image}', file)
 		
 		# Send file to FTP server
-		server_path = f'{GATE}/{ID_DEVICE}/{year}-{month}-{day}_{hour}'
-		sender = sending_file(file_name=file_name, server_path=server_path)
-		if sender:
-			os.remove(path_image)
+		#server_path = f'{GATE}/{ID_DEVICE}/{year}-{month}-{day}_{hour}'
+		#sender = sending_file(file_name=file_name, server_path=server_path)
+		#if sender:
+		#	os.remove(path_image)
 			
-		pass
+		#pass
 	
 	def main(self, image, id=None):
 		image_ori = image.copy()
@@ -68,7 +68,7 @@ class MainProcess:
 		# Container Number Iso Code Detection
 		draw_list = list()
 		try:
-			container_number, iso_code = self.__detection(image, size=0.1, threshold=0.1)
+			container_number, iso_code = self.__detection(image, size=480, threshold=0.1)
 		except:
 			container_number 	= (np.array([], dtype=np.uint8), 0, list())
 			iso_code         	= (np.array([], dtype=np.uint8), 0, list())
@@ -83,7 +83,7 @@ class MainProcess:
 			x_min_c, y_min_c, x_max_c, y_max_c = bbox_container_number
 			draw_list.append([[x_min_c, y_min_c, x_max_c, y_max_c], 'container_number', confidence_container_number])
 		else:
-			x_min_c, y_min_c, x_max_c, y_max_c = None, None, None, None
+			x_min_c, y_min_c, x_max_c, y_max_c = 0, 0, 0, 0
 			image_container_number,confidence_container_number, bbox_container_number = resize(image, 50, 50), 0, None
 		
 		if ISO_CODE:
@@ -92,9 +92,9 @@ class MainProcess:
 				x_min_i, y_min_i, x_max_i, y_max_i = bbox_iso_code
 				draw_list.append([[x_min_i, y_min_i, x_max_i, y_max_i], 'iso_code', confidence_container_number])
 			else:
-				x_min_i, y_min_i, x_max_i, y_max_i = None, None, None, None
+				x_min_i, y_min_i, x_max_i, y_max_i = 0, 0, 0, 0
 				image_iso_code, confidence_iso_code, bbox_iso_code = resize(image, 100, 200), 0, None
-		else: x_min_i, y_min_i, x_max_i, y_max_i = None, None, None, None
+		else: x_min_i, y_min_i, x_max_i, y_max_i = 0, 0, 0, 0
 		# Thread Container Number and ISO Code
 
 		container_number_result, container_number_avg_confidence = process_container_number(
@@ -105,7 +105,7 @@ class MainProcess:
 			iso_code_result, iso_code_avg_confidence = process_iso_code(
 				image, image_iso_code, bbox_iso_code
 			)
-		else: iso_code_result, iso_code_avg_confidence = None, None
+		else: iso_code_result, iso_code_avg_confidence = '', ''
 
 		end_time = int(time.time()-id)
   
@@ -140,7 +140,7 @@ class MainProcess:
 			[[x_min_c, y_min_c, x_max_c, y_max_c], container_number_result, container_number_avg_confidence],
 			[[x_min_i, y_min_i, x_max_i, y_max_i], iso_code_result, iso_code_avg_confidence]
 		]
-		print(result_json)
+		print(new_draw_list)
 		for i in new_draw_list:
 			image_drawed = draw_rectangle(image_ori, i)
 			

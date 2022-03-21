@@ -13,7 +13,7 @@ def draw_rectangle(image, result, resize=100):
 		
 		x_min, x_max = result[0][0], result[0][2]
 		y_min, y_max = result[0][1], result[0][3]
-		classes_name = result[1]
+		classes_name = result[1] if result[1] else '' 
 		confidence   = int(result[2]*100)
 		color 		 = (86, 71, 255)
 		# Draw rectangle

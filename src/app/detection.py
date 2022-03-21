@@ -67,6 +67,7 @@ class CNICDetection:
 		max_conf_container_number, img_container_number, bbox_container_number  = 0, np.array([], dtype=np.uint8), list()
 		max_conf_iso_code, img_iso_code, bbox_iso_code                          = 0, np.array([], dtype=np.uint8), list()
 		results_format = results.xyxy
+		print(results_format)
 		if len(results_format[0]) >= 1:
 			for i in range(len(results_format[0])):
 				classes_name = CLASSES_DETECTION[int(results_format[0][i][-1])]

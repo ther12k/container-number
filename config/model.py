@@ -10,7 +10,7 @@ DIRECTORY_LOGGER        = os.path.expanduser('~/.Halotec/Loggers')
 #============================ MODELS ======================================
 DETECTION_MODEL = {
 	'container_number_iso_code' : {
-		'filename'	: 'model_container_number_gray.pt',
+		'filename'	: 'container_number.pt',
         'url' 		: 'https://www.dropbox.com/s/jjwcr82wlcwtwrj/container_number_gray.pt?dl=1',
         'file_size' : 14753191
 	}

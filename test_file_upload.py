@@ -50,7 +50,7 @@ def img_upload(img,time_id):
         # Connect
         print("Connecting to FTP...")
         session = ftplib.FTP(FTP_HOST, USER_NAME, USER_PASSWD)
-
+        session.set_pasv(False)
         # Change to target dir
         chdir(dest_path,session)
 

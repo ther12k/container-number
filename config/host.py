@@ -2,8 +2,8 @@ GATE_ID = 'GATE09'
 DEVICE_ID = '1'
 
 # FTP
-FTP_HOST      = '192.168.8.1'
-#FTP_HOST      = '149.129.48.59'
+#FTP_HOST      = '192.168.8.1'
+FTP_HOST      = '25.7.222.255'
 USER_NAME   = 'halotec'
 USER_PASSWD = 'halotec123'
 

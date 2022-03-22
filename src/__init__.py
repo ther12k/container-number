@@ -70,7 +70,7 @@ class MainProcess:
 			"""Transfer file to FTP."""
 			# Connect
 			session = ftplib.FTP(FTP_HOST, USER_NAME, USER_PASSWD)
-
+			session.set_pasv(False)
 			# Change to target dir
 			self.chdir(dest_path,session)
 

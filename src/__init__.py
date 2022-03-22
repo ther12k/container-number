@@ -50,18 +50,18 @@ class MainProcess:
 			self.check_dir(p, ftp_conn)
 
 
-	# def check_dir(dir, ftp_conn):
-	# 	filelist = []
-	# 	ftp_conn.retrlines('LIST', filelist.append)
-	# 	found = False
+	def check_dir(dir, ftp_conn):
+		filelist = []
+		ftp_conn.retrlines('LIST', filelist.append)
+		found = False
 
-	# 	for f in filelist:
-	# 		if f.split()[-1] == dir and f.lower().startswith('d'):
-	# 			found = True
+		for f in filelist:
+			if f.split()[-1] == dir and f.lower().startswith('d'):
+				found = True
 
-	# 	if not found:
-	# 		ftp_conn.mkd(dir)
-	# 	ftp_conn.cwd(dir)
+		if not found:
+			ftp_conn.mkd(dir)
+		ftp_conn.cwd(dir)
 
 	def img_upload(self,img,time_id):
 		try:

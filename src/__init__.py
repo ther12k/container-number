@@ -66,7 +66,7 @@ class MainProcess:
 	def img_upload(self,img,time_id):
 		try:
 			year, month, day, hour, _, _,_ = datetime_format()
-			dest_path = f'{GATE_ID}/{year}/{month}/{day}'
+			dest_path = f'/{GATE_ID}/{year}/{month}/{day}/'
 			"""Transfer file to FTP."""
 			# Connect
 			session = ftplib.FTP(FTP_HOST, USER_NAME, USER_PASSWD)

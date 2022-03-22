@@ -42,7 +42,7 @@ def check_dir(dir, ftp_conn):
         ftp_conn.mkd(dir)
     ftp_conn.cwd(dir)
 
-def test_upload(img,time_id,gate_id,device_id):
+def img_upload(img,time_id,gate_id,device_id):
     try:
         year, month, day, hour, _, _,_ = datetime_format()
         dest_path = f'{gate_id}/{year}/{month}/{day}'
@@ -71,4 +71,4 @@ img = cv2.imread(os.path.join(os.getcwd(), '1647774265.jpg'))
 if img is None:
     print('image empty')
 else:
-    test_upload(img,datetime.now(),'GATE09','container1')
+    img_upload(img,datetime.now(),'GATE09','container1')

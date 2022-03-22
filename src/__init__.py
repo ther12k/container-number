@@ -1,4 +1,5 @@
 import os
+from turtle import end_fill
 import cv2
 import time
 import matplotlib
@@ -9,10 +10,16 @@ from src.app import CNICDetection, OneLenResult, OneMoreLenResult, OpticalCharac
 from pathlib import Path
 from itertools import chain
 from .utils import logging, draw_rectangle, datetime_format, sending_file
-from config import ID_DEVICE, GATE, ISO_CODE
-
+from config import DEVICE_ID, GATE_ID, ISO_CODE
+from config import DATETIME_FORMAT,TIMEID_FORMAT,END_POINT,DELAY_IN_SECONDS,FTP_HOST, USER_NAME, USER_PASSWD
 from .preproces import resize
 from .proces import *
+
+from io import BytesIO
+import ftplib
+import requests
+from requests.exceptions import HTTPError
+from datetime import datetime
 
 class MainProcess:
 	'''
@@ -37,25 +44,122 @@ class MainProcess:
 			logging.info(f'Got iso code detection confidence : {round(iso_code[1], 2)} %')
 		return container_number, iso_code
 	
-	def save_and_sending_file(self, file, id_file):
-		'''
-			Send image to server
-			Args:
-				file_path(str): path of image
-			Return:
+	def chdir(self,ftp_path, ftp_conn):
+		dirs = [d for d in ftp_path.split('/') if d != '']
+		for p in dirs:
+			self.check_dir(p, ftp_conn)
+
+
+	# def check_dir(dir, ftp_conn):
+	# 	filelist = []
+	# 	ftp_conn.retrlines('LIST', filelist.append)
+	# 	found = False
+
+	# 	for f in filelist:
+	# 		if f.split()[-1] == dir and f.lower().startswith('d'):
+	# 			found = True
+
+	# 	if not found:
+	# 		ftp_conn.mkd(dir)
+	# 	ftp_conn.cwd(dir)
+
+	def img_upload(self,img,time_id):
+		try:
+			year, month, day, hour, _, _,_ = datetime_format()
+			dest_path = f'{GATE_ID}/{year}/{month}/{day}'
+			"""Transfer file to FTP."""
+			# Connect
+			session = ftplib.FTP(FTP_HOST, USER_NAME, USER_PASSWD)
+
+			# Change to target dir
+			self.chdir(dest_path,session)
+
+			# Transfer file
+			name = time_id.strftime(TIMEID_FORMAT)[:-4]
+			file_name  = f'{DEVICE_ID}{name}.jpg'
+			logging.info("Transferring %s to %s..." % (file_name,dest_path))
+			print("Transferring %s to %s..." % (file_name,dest_path))
+			#using memory, can also use file
+			retval, buffer = cv2.imencode('.jpg', img)
+			flo = BytesIO(buffer)
+			session.storbinary('STOR %s' % os.path.basename(dest_path+file_name), flo)
+			
+			# Close session
+			session.quit()
+			return dest_path+file_name
+		except:
+			logging.info('error: upload file error')
+			return 'error: upload file error'
+
+	def send_data(file_path,start_time,end_time,
+				container_number_result,container_number_avg_confidence,
+				x_min_c,y_min_c,x_max_c,y_max_c,
+				iso_code_result,iso_code_avg_confidence,
+				x_min_i,y_min_i,x_max_i,y_max_i): 
+		try:
+			url= END_POINT+'container/'
+			json_data = {
+				'gateId': GATE_ID,
+				'deviceId': 'container'+DEVICE_ID,
+				'startTime': start_time.strftime(DATETIME_FORMAT),
+				'EndTime': end_time.strftime(DATETIME_FORMAT),
+				'delayInSeconds' : DELAY_IN_SECONDS,
+				'container': {
+					'result': container_number_result,
+					'confidence': int(container_number_avg_confidence),
+					'box' : {
+						"x_min": x_min_c,
+						"y_min": y_min_c,
+						"x_max": x_max_c,
+						"y_max": y_max_c
+					},
+					'filePath': file_path
+				},
+				'iso_code': {
+					'result': iso_code_result,
+					'confidence': int(iso_code_avg_confidence),
+					'box' : {
+						"x_min": x_min_i,
+						"y_min": y_min_i,
+						"x_max": x_max_i,
+						"y_max": y_max_i
+					},
+					'filePath': file_path
+				}
+			}
+			logging.info(json_data)
+			headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+			r = requests.post(url=url,json=json_data,headers=headers,timeout=(SEND_TIMEOUT,READ_TIMEOUT))
+			
+			logging.info(r)
+			ret = r.json()
+			return ret
+		except HTTPError as e:
+			logging.info(e.response.text)
+		except:
+
+			logging.info('error send')
+			return 'send error'
+
+	# def save_and_sending_file(self, file, id_file):
+	# 	'''
+	# 		Send image to server
+	# 		Args:
+	# 			file_path(str): path of image
+	# 		Return:
 				
-		'''
-		# Save File
-		year, month, day, hour, _, _,_ = datetime_format()
-		save_path = f'results/{year}/{month}/{day}/{hour}'
-		Path(save_path).mkdir(parents=True, exist_ok=True)
+	# 	'''
+	# 	# Save File
+	# 	year, month, day, hour, _, _,_ = datetime_format()
+	# 	save_path = f'results/{year}/{month}/{day}/{hour}'
+	# 	Path(save_path).mkdir(parents=True, exist_ok=True)
 		
-		file_name   = f'{id_file}.jpg'
-		path_image  = f'{save_path}/{file_name}'
-		cv2.imwrite(f'{path_image}', file)
+	# 	file_name   = f'{id_file}.jpg'
+	# 	path_image  = f'{save_path}/{file_name}'
+	# 	cv2.imwrite(f'{path_image}', file)
 		
 		# Send file to FTP server
-		#server_path = f'{GATE}/{ID_DEVICE}/{year}-{month}-{day}_{hour}'
+		#server_path = f'{GATE}/{DEVICE_ID}/{year}-{month}-{day}_{hour}'
 		#sender = sending_file(file_name=file_name, server_path=server_path)
 		#if sender:
 		#	os.remove(path_image)
@@ -64,7 +168,7 @@ class MainProcess:
 	
 	def main(self, image, id=None):
 		image_ori = image.copy()
-		if not id: id = int(time.time())
+		if not id: id = datetime.now()
 		# Container Number Iso Code Detection
 		draw_list = list()
 		try:
@@ -107,34 +211,6 @@ class MainProcess:
 			)
 		else: iso_code_result, iso_code_avg_confidence = '', ''
 
-		end_time = int(time.time()-id)
-  
-		result_json = {
-			'container_number': {
-				'result_ocr': container_number_result,
-				'confidence': container_number_avg_confidence,
-				'box' : {
-					"x_min": x_min_c,
-					"y_min": y_min_c,
-					"x_max": x_max_c,
-					"y_max": y_max_c
-				}
-			},
-			'iso_code': {
-				'result_ocr': iso_code_result,
-				'confidence': iso_code_avg_confidence,
-				'box' : {
-					"x_min": x_min_i,
-					"y_min": y_min_i,
-					"x_max": x_max_i,
-					"y_max": y_max_i
-				}
-			},
-			'processing_time': end_time,
-			'id_device': ID_DEVICE,
-			'id': id
-		}
-
 		# Draw image and extract result
 		new_draw_list = [
 			[[x_min_c, y_min_c, x_max_c, y_max_c], container_number_result, container_number_avg_confidence],
@@ -145,5 +221,13 @@ class MainProcess:
 			image_drawed = draw_rectangle(image_ori, i)
 			
 		# Save and sending file FTP
-		self.save_and_sending_file(image_drawed, id)
+		path = self.img_upload(image_drawed,id)
+		if 'error' in path :
+			path=''
+		end_time = datetime.now()
+		self.send_data(path,id,end_time,
+				container_number_result,container_number_avg_confidence,
+				x_min_c,y_min_c,x_max_c,y_max_c,
+				iso_code_result,iso_code_avg_confidence,
+				x_min_i,y_min_i,x_max_i,y_max_i)
 		return image_drawed

@@ -1,5 +1,3 @@
-
-
 import cv2
 import time
 from src import MainProcess

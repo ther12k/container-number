@@ -106,7 +106,7 @@ class MainProcess:
 				'delayInSeconds' : DELAY_IN_SECONDS,
 				'container': {
 					'result': container_number_result,
-					'confidence': container_number_avg_confidence,
+					'confidence': int(container_number_avg_confidence),
 					'box' : {
 						"x_min": x_min_c,
 						"y_min": y_min_c,
@@ -117,7 +117,7 @@ class MainProcess:
 				},
 				'iso_code': {
 					'result': iso_code_result,
-					'confidence': iso_code_avg_confidence,
+					'confidence': int(iso_code_avg_confidence),
 					'box' : {
 						"x_min": x_min_i,
 						"y_min": y_min_i,

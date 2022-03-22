@@ -1,4 +1,4 @@
-from config import FTP_HOST, USER_NAME, USER_PASSWD, TIMEID_FORMAT
+from config import GATE_ID,DEVICE_ID,FTP_HOST, USER_NAME, USER_PASSWD, TIMEID_FORMAT
 import os
 from io import BytesIO
 import ftplib
@@ -42,10 +42,10 @@ def check_dir(dir, ftp_conn):
         ftp_conn.mkd(dir)
     ftp_conn.cwd(dir)
 
-def img_upload(img,time_id,gate_id,device_id):
+def img_upload(img,time_id):
     try:
         year, month, day, hour, _, _,_ = datetime_format()
-        dest_path = f'{gate_id}/{year}/{month}/{day}'
+        dest_path = f'{GATE_ID}/{year}/{month}/{day}'
         """Transfer file to FTP."""
         # Connect
         print("Connecting to FTP...")
@@ -56,7 +56,7 @@ def img_upload(img,time_id,gate_id,device_id):
 
         # Transfer file
         name = time_id.strftime(TIMEID_FORMAT)[:-4]
-        file_name  = f'{device_id}{name}.jpg'
+        file_name  = f'{DEVICE_ID}{name}.jpg'
         print("Transferring %s to %s..." % (file_name,dest_path))
         retval, buffer = cv2.imencode('.jpg', img)
         flo = BytesIO(buffer)
@@ -66,9 +66,36 @@ def img_upload(img,time_id,gate_id,device_id):
         session.quit()
     except:
         return 'upload file error'
+def video_upload(name):
+    try:
+        #name = time_id.strftime(TIMEID_FORMAT)[:-4]
+        year, month, day, hour, _, _,_ = datetime_format()
+        dest_path = f'/{GATE_ID}/{year}/{month}/{day}/'
+        """Transfer file to FTP."""
+        # Connect
+        print("Connecting to %s..." % (FTP_HOST))
+        session = ftplib.FTP(FTP_HOST, USER_NAME, USER_PASSWD)
 
-img = cv2.imread(os.path.join(os.getcwd(), '1647774265.jpg'))
+        # Change to target dir
+        chdir(dest_path,session)
+
+        # Transfer file
+        file_name = name+'.avi'
+        print("Transferring %s to %s..." % (file_name,dest_path))
+        with open('results/'+file_name, "rb") as file:
+            session.storbinary('STOR %s' % os.path.basename(dest_path+file_name), file)
+        
+        # Close session
+        session.quit()
+        return dest_path+file_name
+    except:
+        print('error: upload file error')
+        return 'error: upload file error'
+
+
+""" img = cv2.imread(os.path.join(os.getcwd(), '1647774265.jpg'))
 if img is None:
     print('image empty')
 else:
-    img_upload(img,datetime.now(),'GATE09','container1')
+    img_upload(img,datetime.now(),'GATE09','container1') """
+print(video_upload('test'))

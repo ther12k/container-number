@@ -131,12 +131,12 @@ def axle_test(result, file_path, start_time, end_time):
 
 def seal_test(result, confidence, file_path, start_time, end_time): 
     try:
-        url= END_POINT+'axle/'
+        url= END_POINT+'seal/'
         print(url)
         x_min_c=y_min_c=x_max_c=y_max_c=0
         json_data = {
 			'gateId': GATE_ID,
-  			'deviceId': 'axle'+DEVICE_ID,
+  			'deviceId': 'seal'+DEVICE_ID,
 			'result': result,
 			'confidence': confidence,
 			'box' : {
@@ -186,8 +186,44 @@ def containerdamage_test(result, confidence, file_path, start_time, end_time):
     except:
         return 'send error'
 
+
+def tag_test(result, confidence, file_path, start_time, end_time): 
+    try:
+        url= END_POINT+'tag/'
+        x_min_c=y_min_c=x_max_c=y_max_c=0
+        print(url)
+        json_data = {
+			'gateId': GATE_ID,
+  			'deviceId': 'tag'+DEVICE_ID,
+			'result': result,
+			'confidence': confidence,
+			'box' : {
+				"x_min": x_min_c,
+				"y_min": y_min_c,
+				"x_max": x_max_c,
+				"y_max": y_max_c
+			},
+			'filePath': file_path,
+  			'startTime': start_time.strftime(DATETIME_FORMAT),
+  			'EndTime': end_time.strftime(DATETIME_FORMAT),
+			'delayInSeconds' : DELAY_IN_SECONDS,
+		}
+        print('sending...')
+        print(json_data)
+        headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+        r = requests.post(url=url,json=json_data,headers=headers,timeout=(SEND_TIMEOUT,READ_TIMEOUT))
+        ret = r.json()
+        return ret
+    except HTTPError as e:
+        print(e.response.text)
+    except:
+        return 'send error'
+
+
 #print(container_test())
-print(axle_test(6, "", datetime.datetime.now(), datetime.datetime.now()))
+#print(axle_test(6, "", datetime.datetime.now(), datetime.datetime.now()))
 #print(seal_test(1, 87, "", datetime.datetime.now(), datetime.datetime.now()))
 # print(containerdamage_test(1, 87, "", datetime.datetime.now(), datetime.datetime.now()))
-# print(container_test("CONTAINER2",80, "", "G405", 80, "", datetime.datetime.now(), datetime.datetime.now()))
+#print(container_test("CONTAINER4",81, "", "G405", 81, "", datetime.datetime.now(), datetime.datetime.now()))
+print(tag_test("F438765", 81, "", datetime.datetime.now(), datetime.datetime.now()))
+#print(axle_test(3, "", datetime.datetime.now(), datetime.datetime.now()))
